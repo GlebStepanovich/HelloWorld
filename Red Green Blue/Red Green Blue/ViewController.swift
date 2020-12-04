@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        
         redSlider.thumbTintColor = .red
         greenSlider.thumbTintColor = .green
         blueSlider.thumbTintColor = .blue
@@ -37,6 +39,8 @@ class ViewController: UIViewController {
         
         rgbTextLabel.text = ""
         
+        
+        
     }
     
     
@@ -47,8 +51,11 @@ class ViewController: UIViewController {
         mainView.backgroundColor = UIColor(red: CGFloat(redSlider.value)/255, green: CGFloat(greenSlider.value)/255, blue: CGFloat(blueSlider.value)/255, alpha: 1)
         
         rgbTextLabel.text = String(Int(redSlider.value)) + ", " + String(Int(greenSlider.value)) + ", " + String(Int(blueSlider.value))
+        
+        
+        
+        
     }
-    
     
 }
 

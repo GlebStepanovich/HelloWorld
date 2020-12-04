@@ -25,7 +25,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="U0R-8M-TQo">
                                 <rect key="frame" x="80" y="248" width="281" height="31"/>
                                 <connections>
-                                    <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="0KJ-hD-w8B"/>
+                                    <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="Z53-as-35u"/>
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="osA-2n-6QW">
@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="height" constant="30" id="npV-sE-4Xs"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="64e-8z-NKQ"/>
+                                    <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="eeG-Zz-ZPB"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFL-5Q-tSF">
@@ -73,7 +73,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="VDV-ER-m84">
                                 <rect key="frame" x="80" y="382" width="281" height="31"/>
                                 <connections>
-                                    <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="VAi-DE-gGX"/>
+                                    <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="kmq-ha-Ftn"/>
                                 </connections>
                             </slider>
                         </subviews>
@@ -109,16 +109,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="blueSlider" destination="VDV-ER-m84" id="Odj-cD-MXi"/>
-                        <outlet property="greenSlider" destination="osA-2n-6QW" id="k6l-x1-TEp"/>
+                        <outlet property="blueSlider" destination="VDV-ER-m84" id="6pu-em-UbL"/>
+                        <outlet property="greenSlider" destination="osA-2n-6QW" id="1Zo-Yu-ktr"/>
                         <outlet property="mainView" destination="ySu-jd-yX4" id="9I0-w8-Kqs"/>
-                        <outlet property="redSlider" destination="U0R-8M-TQo" id="6Le-FK-dOs"/>
+                        <outlet property="redSlider" destination="U0R-8M-TQo" id="suG-qW-qtf"/>
                         <outlet property="rgbTextLabel" destination="bSh-i0-Nao" id="bpg-vQ-IBa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-386" y="-31"/>
+            <point key="canvasLocation" x="-596" y="-14"/>
         </scene>
     </scenes>
 </document>
