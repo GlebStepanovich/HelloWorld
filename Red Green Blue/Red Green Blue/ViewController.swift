@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        mainView.layer.cornerRadius = 20
         
         redSlider.thumbTintColor = .red
         greenSlider.thumbTintColor = .green
@@ -52,10 +53,28 @@ class ViewController: UIViewController {
         
         rgbTextLabel.text = String(Int(redSlider.value)) + ", " + String(Int(greenSlider.value)) + ", " + String(Int(blueSlider.value))
         
+    }
+    
+    @IBAction func redSlider(_ sender: UISlider) {
         
-        
+        redSlider.minimumTrackTintColor = UIColor(red: CGFloat(redSlider.value)/255, green: 0/255, blue: 0/255, alpha: 1)
         
     }
+    
+    @IBAction func greenSlider(_ sender: Any) {
+        
+        greenSlider.minimumTrackTintColor = UIColor(red: 0/255, green: CGFloat(greenSlider.value)/255, blue: 0/255, alpha: 1)
+        
+    }
+    
+    @IBAction func blueSlider(_ sender: Any) {
+        
+        blueSlider.minimumTrackTintColor = UIColor(red: 0/255, green: 0/255, blue: CGFloat(blueSlider.value)/255, alpha: 1)
+        
+    }
+    
+    
+    
     
 }
 

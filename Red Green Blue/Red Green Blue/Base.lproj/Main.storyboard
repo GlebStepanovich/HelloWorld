@@ -25,6 +25,7 @@
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="U0R-8M-TQo">
                                 <rect key="frame" x="80" y="248" width="281" height="31"/>
                                 <connections>
+                                    <action selector="redSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Yy0-pM-Nex"/>
                                     <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="Z53-as-35u"/>
                                 </connections>
                             </slider>
@@ -34,6 +35,7 @@
                                     <constraint firstAttribute="height" constant="30" id="npV-sE-4Xs"/>
                                 </constraints>
                                 <connections>
+                                    <action selector="greenSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="7ut-aH-wAe"/>
                                     <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="eeG-Zz-ZPB"/>
                                 </connections>
                             </slider>
@@ -71,8 +73,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="VDV-ER-m84">
-                                <rect key="frame" x="80" y="382" width="281" height="31"/>
+                                <rect key="frame" x="80" y="381" width="281" height="31"/>
                                 <connections>
+                                    <action selector="blueSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="0ze-Ca-KTc"/>
                                     <action selector="sliderColorChanger:" destination="BYZ-38-t0r" eventType="valueChanged" id="kmq-ha-Ftn"/>
                                 </connections>
                             </slider>
@@ -118,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-596" y="-14"/>
+            <point key="canvasLocation" x="-649" y="-18"/>
         </scene>
     </scenes>
 </document>
